@@ -2,7 +2,7 @@
 
 from transformers import pipeline, set_seed
 
-# Load GPT-2 model (no API key needed)
+
 generator = pipeline('text-generation', model='gpt2')
 set_seed(42)
 
