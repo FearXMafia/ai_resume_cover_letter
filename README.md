@@ -30,6 +30,11 @@ ai_resume_cover_letter/
  README.md                  # Project documentation
 ```
 
+INSTALL DEPENDENCIES:- pip install -r requirements.txt
+python version 3.8+
+
+   USAGE:-python [app.py](http://_vscodecontentref_/0)
+
 ## Installation
 
 1. **Clone the repository:**
@@ -44,6 +49,20 @@ pip install -r requirements.txt
 ```
 
 ---
+
+FILE STRUCTURE:-[app.py](http://_vscodecontentref_/1)
+[generator.py](http://_vscodecontentref_/2)
+[templates.py](http://_vscodecontentref_/3)
+[requirements.txt](http://_vscodecontentref_/4)
+[readme.md](http://_vscodecontentref_/5)
+__pycache__/
+    generator.cpython-313.pyc
+    templates.cpython-313.pyc
+.gradio/
+    [certificate.pem](http://_vscodecontentref_/6)
+
+   
+
 
 
 app.py: Main application file. Sets up the Gradio interface and handles user input/output.
@@ -83,21 +102,7 @@ GITHUB PROFILE:- ayudixit1207
 ```bash
 python app.py
 
-   INSTALL DEPENDENCIES:- pip install -r requirements.txt
-python version 3.8+
 
-   USAGE:-python [app.py](http://_vscodecontentref_/0)
-   
-
-FILE STRUCTURE:-[app.py](http://_vscodecontentref_/1)
-[generator.py](http://_vscodecontentref_/2)
-[templates.py](http://_vscodecontentref_/3)
-[requirements.txt](http://_vscodecontentref_/4)
-[readme.md](http://_vscodecontentref_/5)
-__pycache__/
-    generator.cpython-313.pyc
-    templates.cpython-313.pyc
-.gradio/
-    [certificate.pem](http://_vscodecontentref_/6)
 
    
+
