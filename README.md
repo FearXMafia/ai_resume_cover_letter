@@ -91,5 +91,5 @@ LICENSE:- free to use
 
 AUTHOR:- AAYUSH DIKSHIT 
 
-GITHUB PROFILE:- FearXMafia
-🌐 [GitHub Profile](https://github.com/FearXMafia)
+GITHUB PROFILE:- ayudixit1207
+🌐 [GitHub Profile](https://github.com/ayudixit1207)
