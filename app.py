@@ -26,7 +26,7 @@ def generate_docs(name, job_title, experience, skills, education):
     
     return resume, cover_letter
 
-# ✅ This line is updated with `share=True`
+
 interface = gr.Interface(
     fn=generate_docs,
     inputs=[
@@ -43,5 +43,5 @@ interface = gr.Interface(
     title="AI Resume & Cover Letter Generator (No API Key)"
 )
 
-# ✅ Launch with public link enabled
+
 interface.launch(share=True)
