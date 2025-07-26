@@ -20,7 +20,32 @@ After installation, run the app and access the Gradio interface in your browser.
 - ✅ Simple Gradio web interface
 - ❌ No API key required (uses offline models)
 
-- 
+## 📂 Project Structure
+
+```
+ai_resume_cover_letter/
+ app.py                      # Gradio app interface
+ resume_cover_model.py      # AI logic for resume & cover letter
+ requirements.txt           # Dependencies
+ README.md                  # Project documentation
+```
+
+## Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone <your-repo-url>
+   cd ai_resume_cover_letter
+
+   Install dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+
 app.py: Main application file. Sets up the Gradio interface and handles user input/output.
 generator.py: Contains the AI summary generation logic 
 templates.py: Stores the text templates for resumes and cover letters.
@@ -50,30 +75,8 @@ GITHUB PROFILE:- ayudixit1207
 
 
 
-## 📂 Project Structure
 
-```
-ai_resume_cover_letter/
- app.py                      # Gradio app interface
- resume_cover_model.py      # AI logic for resume & cover letter
- requirements.txt           # Dependencies
- README.md                  # Project documentation
-```
 
-## Installation
-
-1. **Clone the repository:**
-   ```sh
-   git clone <your-repo-url>
-   cd ai_resume_cover_letter
-
-   Install dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
-
----
 
 ## ▶️ How to Run
 
