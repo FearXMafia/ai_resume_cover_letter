@@ -84,6 +84,7 @@ GITHUB PROFILE:- ayudixit1207
 python app.py
 
    INSTALL DEPENDENCIES:- pip install -r requirements.txt
+python version 3.8+
 
    USAGE:-python [app.py](http://_vscodecontentref_/0)
    
