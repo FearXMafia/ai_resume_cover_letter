@@ -50,12 +50,22 @@ pip install -r requirements.txt
 
 ---
 
-FILE STRUCTURE:-[app.py](http://_vscodecontentref_/1)
+FILE STRUCTURE:-[app.py](http://_vscodecontentref_/1)  
+
+
 [generator.py](http://_vscodecontentref_/2)
+
+
 [templates.py](http://_vscodecontentref_/3)
+
+
 [requirements.txt](http://_vscodecontentref_/4)
+
+
 [readme.md](http://_vscodecontentref_/5)
+
 __pycache__/
+
     generator.cpython-313.pyc
     templates.cpython-313.pyc
 .gradio/
@@ -66,10 +76,15 @@ __pycache__/
 
 
 app.py: Main application file. Sets up the Gradio interface and handles user input/output.
+
 generator.py: Contains the AI summary generation logic 
+
 templates.py: Stores the text templates for resumes and cover letters.
+
 requirements.txt: Lists required Python packages.
+
 .gradio/: Contains Gradio-related files 
+
 
 ## HOW IT WORKS:- User Input: Enter your name, job title, experience, skills, and education in the Gradio interface.
 AI Summary Generation: The app uses GPT-2 (via Hugging Face Transformers) to generate a professional summary based on your experience, skills, and job title (generator.generate_summary).
