@@ -19,7 +19,6 @@ After installation, run the app and access the Gradio interface in your browser.
 - ✅ Generate Cover Letter using AI
 - ✅ Simple Gradio web interface
 - ❌ No API key required (uses offline models)
-
 ## 📂 Project Structure
 
 ```
@@ -107,17 +106,9 @@ AUTHOR:- AAYUSH DIKSHIT
 GITHUB PROFILE:- ayudixit1207
 🌐 [GitHub Profile](https://github.com/ayudixit1207)
 
-
-
-
-
-
 ## ▶️ How to Run
 
 ```bash
 python app.py
 
-
-
-   
 
