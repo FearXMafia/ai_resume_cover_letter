@@ -20,6 +20,35 @@ After installation, run the app and access the Gradio interface in your browser.
 - ✅ Simple Gradio web interface
 - ❌ No API key required (uses offline models)
 
+- 
+app.py: Main application file. Sets up the Gradio interface and handles user input/output.
+generator.py: Contains the AI summary generation logic 
+templates.py: Stores the text templates for resumes and cover letters.
+requirements.txt: Lists required Python packages.
+.gradio/: Contains Gradio-related files 
+
+## HOW IT WORKS:- User Input: Enter your name, job title, experience, skills, and education in the Gradio interface.
+AI Summary Generation: The app uses GPT-2 (via Hugging Face Transformers) to generate a professional summary based on your experience, skills, and job title (generator.generate_summary).
+Template Filling: The summary and other details are inserted into predefined templates (resume_template, cover_letter_template).
+Output: The completed resume and cover letter are displayed in the interface.
+
+#DEPENDECIES:-Gradio
+Transformers
+Torch
+
+# 🤖 Model Used
+
+- [DistilGPT2](https://huggingface.co/distilgpt2) from HuggingFace Transformers  
+- Local pipeline for text-generation
+
+LICENSE:- free to use
+
+AUTHOR:- AAYUSH DIKSHIT 
+
+GITHUB PROFILE:- ayudixit1207
+🌐 [GitHub Profile](https://github.com/ayudixit1207)
+
+
 
 ## 📂 Project Structure
 
@@ -67,29 +96,4 @@ __pycache__/
 .gradio/
     [certificate.pem](http://_vscodecontentref_/6)
 
-    app.py: Main application file. Sets up the Gradio interface and handles user input/output.
-generator.py: Contains the AI summary generation logic 
-templates.py: Stores the text templates for resumes and cover letters.
-requirements.txt: Lists required Python packages.
-.gradio/: Contains Gradio-related files 
-
-## HOW IT WORKS:- User Input: Enter your name, job title, experience, skills, and education in the Gradio interface.
-AI Summary Generation: The app uses GPT-2 (via Hugging Face Transformers) to generate a professional summary based on your experience, skills, and job title (generator.generate_summary).
-Template Filling: The summary and other details are inserted into predefined templates (resume_template, cover_letter_template).
-Output: The completed resume and cover letter are displayed in the interface.
-
-#DEPENDECIES:-Gradio
-Transformers
-Torch
-
-# 🤖 Model Used
-
-- [DistilGPT2](https://huggingface.co/distilgpt2) from HuggingFace Transformers  
-- Local pipeline for text-generation
-
-LICENSE:- free to use
-
-AUTHOR:- AAYUSH DIKSHIT 
-
-GITHUB PROFILE:- ayudixit1207
-🌐 [GitHub Profile](https://github.com/ayudixit1207)
+   
