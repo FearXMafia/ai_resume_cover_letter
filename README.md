@@ -73,12 +73,12 @@ templates.py: Stores the text templates for resumes and cover letters.
 requirements.txt: Lists required Python packages.
 .gradio/: Contains Gradio-related files 
 
-HOW IT WORKS:- User Input: Enter your name, job title, experience, skills, and education in the Gradio interface.
+## HOW IT WORKS:- User Input: Enter your name, job title, experience, skills, and education in the Gradio interface.
 AI Summary Generation: The app uses GPT-2 (via Hugging Face Transformers) to generate a professional summary based on your experience, skills, and job title (generator.generate_summary).
 Template Filling: The summary and other details are inserted into predefined templates (resume_template, cover_letter_template).
 Output: The completed resume and cover letter are displayed in the interface.
 
-DEPENDECIES:-Gradio
+#DEPENDECIES:-Gradio
 Transformers
 Torch
 
